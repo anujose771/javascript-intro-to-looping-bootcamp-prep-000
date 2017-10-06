@@ -5,3 +5,12 @@
    }
    return array;
  }
+
+
+function whileLoop(number){
+
+  while(number > 0){
+    number--;
+  }
+  return "done";
+}
