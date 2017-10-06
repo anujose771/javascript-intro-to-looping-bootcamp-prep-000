@@ -7,7 +7,6 @@
  //   }
 
  function forLoop(array){
-   var array = new Array();
    for(let i = 0 ; i < 25; i++){
      array[i] = (`I am ${i} strange loop ${i === 0 ? '' : 's'}.`);
    }
