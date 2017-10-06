@@ -9,7 +9,7 @@
 
 function whileLoop(number){
 
-  while(number > 0){
+  while(number >= 0){
     number--;
   }
   return "done";
