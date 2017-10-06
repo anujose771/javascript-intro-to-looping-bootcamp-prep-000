@@ -8,9 +8,8 @@
 
 
 function whileLoop(number){
-  while(number > 0){
-    number--;
+  while(number < 0){
+    console.log(number--);
   }
   return "done";
 }
-whileLoop(5);
